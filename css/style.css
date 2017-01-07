@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-background {
+    background-color: #fff;
+    padding: 20px 0 20px 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #444;;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-default .navbar-nav > li:hover > a {
+    color: #02BDD5;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    background-color: #000;
+    color: #02BDD5;
+}
+
+.dropdown-menu > li > a {
+    background-color: #000;
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #000;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    top: 70px;
+    left: -10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.welcome-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #ccc;
+}
+
+.overlay {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.navbar-container {
+    padding-bottom: 20px;
+}
+
+.welcome-text {
+    position: absolute;
+    top: 200px;
+    color: #000;
+    width: 100%;
+    z-index: 99999;
+}
+
+.job-title-text {
+    color: #02BDD5;
+    font-size: 36px;
+    font-weight: 700px;
+}
+
+p.about-text {
+    margin: auto;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 38px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #666;
+    margin-top: 25px;
+    max-width: 850px;
+}
+
+.welcome-text h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #333;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn.btn-default.view-btn {
+    border-radius: 0;
+    color: #fff;
+    padding: 20px 35px;
+    background-color: #414141;
+    font-size: 13px;
+    line-height: 1em;
+}
