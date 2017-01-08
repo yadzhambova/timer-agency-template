@@ -254,5 +254,63 @@ p.about-text {
 
 .icons-row {
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.icons-row-second {
     margin-bottom: 160px;
+}
+
+.blue-bg-color {
+    background-color: #02BDD5;
+    color: #fff;
+}
+
+.question-text {
+    margin-bottom: 15px;
+    margin-top: 107px;
+    font-size: 30px;
+    line-height: 1.1;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.contact-btn {
+    border-radius: 0;
+    color: #02BDD5;
+    border: 0;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.contact-btn:hover {
+    background-color: #fff;
+    color: #02BDD5;
+}
+
+.copyright {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.copyright > a {
+    text-decoration: none;
+    color: #02BDD5;
+}
+
+.font-awesome-icons i {
+    font-size: 20px;
+    color: #02bdd5;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.font-awesome-icons i:hover {
+    cursor: pointer;
 }
